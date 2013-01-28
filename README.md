@@ -36,7 +36,7 @@ TODO
 * **[wiki.opscode.com](http://wiki.opscode.com/display/chef/About+Opscode+Chef)**
 * **[community.opscode.com](http://community.opscode.com/)**
 * **[GitHub Chef cookbooks](https://github.com/search?q=chef+cookbooks&ref=commandbar)**
-* **[Nginx+php-fpm+perl под Debian Squeeze](http://habrahabr.ru/post/164401/)** - очень полезная статья на хабре по правильной нстройке LEMP-стека
+* **[Nginx+php-fpm+perl под Debian Squeeze](http://habrahabr.ru/post/164401/)** - очень полезная статья на хабре по правильной настройке LEMP-стека
 
 
 
