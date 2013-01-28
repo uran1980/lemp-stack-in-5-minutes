@@ -68,6 +68,8 @@ Chef оперирует **рецептами (cookbooks)** и **ролями (ro
 ### Архитектура Chef
 TODO
 
+![alt "Архитектура Chef"][image-004]
+
 
 ### Регистрация и настройка Chef-Server
 TODO
@@ -100,6 +102,7 @@ TODO
 [image-001]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
 [image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-002.png "Регистрация на Rackspace Open Cloud"
 [image-003]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-003.png "Развертывание образа дистрибутива Ubuntu 12.04LTS presice"
+[image-004]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/chef-server-arch.png "Архитектура Chef"
 
 [placeholder]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/placeholder.png "placeholder"
 
