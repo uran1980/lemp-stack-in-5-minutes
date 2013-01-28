@@ -75,13 +75,16 @@ Chef оперирует **рецептами (cookbooks)** и **ролями (ro
 ### Архитектура Chef
 ![alt "Архитектура Chef"][image-004]
 
-Архитектура Chef состоит из **[центрального сервера (Chef-Server)](http://wiki.opscode.com/display/chef/Chef+Server)** и подчиненных ему **[клиентов (Chef-Client)](http://wiki.opscode.com/display/chef/Chef+Client)** - узлов **([nodes](http://wiki.opscode.com/display/chef/Nodes))**. С Chef-сервером мы будем работать через **[Web-интерфейс](https://manage.opscode.com/)**, для этого собственно нам и надо будет зарегистрироваться на **[сайте Chef-комюнити](http://www.opscode.com/hosted-chef/)**.  Одной из радновидностей Chef-клиентов являеются особые клиенты, у которых установлен специальный инструмент командной строки - **[Knife (нож шеф-повара)](http://wiki.opscode.com/display/chef/Knife)**, он предназначен для создания **[рецептов](http://wiki.opscode.com/display/chef/Cookbooks)**, которые, в свою очередь, будут применятся на остальных подчиненных Chef-клиентах.
+Архитектура Chef состоит из **[центрального сервера (Chef-Server)](http://wiki.opscode.com/display/chef/Chef+Server)** и подчиненных ему **[клиентов (Chef-Client)](http://wiki.opscode.com/display/chef/Chef+Client)** - узлов **([nodes](http://wiki.opscode.com/display/chef/Nodes))**. С Chef-сервером мы будем работать через **[Web-интерфейс](https://manage.opscode.com/)**. Одной из радновидностей Chef-клиентов являеются особые клиенты, у которых установлен специальный инструмент командной строки - **[Knife (нож шеф-повара)](http://wiki.opscode.com/display/chef/Knife)**, он предназначен для создания **[рецептов](http://wiki.opscode.com/display/chef/Cookbooks)**, которые, в свою очередь, будут применятся на остальных подчиненных Chef-клиентах.
 
 [наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 
 ### Регистрация и настройка Chef-Server
+Заходим по **[этому адресу](http://www.opscode.com/hosted-chef/)**, нажимаем кнопку **Free Trial** и регистрируем бесплатный аккаунт, чтобы получить доступ к **[пенли Chef-сервера](https://manage.opscode.com/)** и бесплатно управлять пятью узлами. Если вам по каким-либо причинам будет не достаточно пяти узлов, то придется раскошелиться от 120$ в месяц за большее количество доступных для управления узлов.
+
 TODO
+
 
 [наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
