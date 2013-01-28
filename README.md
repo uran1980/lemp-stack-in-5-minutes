@@ -1,5 +1,6 @@
 LEMP-стек за 5 минут
 ====================
+![alt LEMP-stack](https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут")
 
 Всем привет! В этой сатье я расскажу как за пять минут приготовить рабочий и готовый к употреблению LEMP-стек. 
 
