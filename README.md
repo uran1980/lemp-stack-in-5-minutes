@@ -33,6 +33,8 @@ LEMP-стек за 5 минут
 * **[Chef-server](http://wiki.opscode.com/display/chef/About+Opscode+Chef)** - cреда автоматизированного развертывания окружений. Необходимо будет зарегистрировать бесплатный аккаунт на сейте **[opscode.com](http://www.opscode.com/hosted-chef/)**, чтобы получить возможность управлять **бесплатно!!!** до 5 нодами (серверами). Чего нам более чем достаточно для экспериментов =)
 * Набор необходимых рецептов _([chef cookbooks](http://wiki.opscode.com/display/chef/Cookbooks))_ для приготовления LEMP-стека (их вы найдете в моем [репозитарии](https://github.com/uran1980/lemp-stack-in-5-minutes) к этой статье). Эти рецепты подобраны мной и проверены на работоспособность. Также при необходимости вы можете сами подобрать нужные рецепты на **[сайте Chef комюнити](http://community.opscode.com/)** или на просторах **[гитхаба](https://github.com/search?q=chef+cookbooks&ref=commandbar)**.
 
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
+
 
 ## Начальные приготовления
 ### Регистрация
@@ -44,6 +46,7 @@ LEMP-стек за 5 минут
 
 ![alt "Регистрация Cloud Account"][image-002]
 
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 ### Установка нужного дистрибутива
 Устанавливаем нужный образ дистрибутива Linux. В данном случае я использую ```Ubuntu 12.04LTS presice```, т.к. это стабильная ветка как раз для серверов с долгосрочной поддержкой (до 2017 года). Образ устанавливается за минуту!
@@ -53,6 +56,8 @@ LEMP-стек за 5 минут
 ![alt "Ubuntu 12.04LTS presice"][image-003]
 
 По окончании развертывания образа у вас будет IP-адрес вашего сервера и рутовский пароль для доступа к нему. Это все что нам необходимо для дальнейшей работы.
+
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 
 ## Chef - или подготовка шеф повара
@@ -64,31 +69,45 @@ Chef оперирует **рецептами (cookbooks)** и **ролями (ro
 Теперь если к нам, например, поступает новый сервер все что необходимо - это сказать Chef'у какую роль должен выполнять этот сервер в нашей архитектуре и в зависимости от этого Chef сам все подготовит без дальнейшего нашего вмешательства...
 В теории все выглядит великолепно, попробуем реализовать это на практике...
 
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
+
 
 ### Архитектура Chef
 ![alt "Архитектура Chef"][image-004]
 
 Архитектура Chef состоит из **[центрального сервера (Chef-Server)](http://wiki.opscode.com/display/chef/Chef+Server)** и подчиненных ему **[клиентов (Chef-Client)](http://wiki.opscode.com/display/chef/Chef+Client)** - узлов **([nodes](http://wiki.opscode.com/display/chef/Nodes))**. Одной из радновидностей Chef-клиентов являеются особые клиенты, у которых установлен специальный инструмент командной строки - **[Knife (нож шеф-повара)](http://wiki.opscode.com/display/chef/Knife)**, он предназначен для создания **[рецептов](http://wiki.opscode.com/display/chef/Cookbooks)**, которые, в свою очередь, будут применятся на остальных подчиненных Chef-клиентах.
 
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
+
 
 ### Регистрация и настройка Chef-Server
 TODO
+
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 
 ### Настройка Chef-Knife (нож шеф-повара)
 TODO
 
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
+
 
 ### Настройка Chef-Client
 TODO
+
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 
 ## Создание и применение рецептов
 TODO
 
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
+
 
 ## Заключение
 TODO
+
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 
 ### Полезные ссылки
@@ -98,9 +117,12 @@ TODO
 * **[community.opscode.com](http://community.opscode.com/)**
 * **[GitHub Chef cookbooks](https://github.com/search?q=chef+cookbooks&ref=commandbar)**
 * **[Nginx+php-fpm+perl под Debian Squeeze](http://habrahabr.ru/post/164401/)** - очень полезная статья на хабре по правильной настройке LEMP-стека
+
 * **[Установка Ruby RVM (Ruby Version Manager) в Ubuntu 12.04](http://habrahabr.ru/sandbox/49699/)**
 * **[Ruby Installer для Windows - самый простой способ установить Ruby под Windows](http://rubyinstaller.org/)**
 * **[Установка Ruby on Rails на Windows с использованием Vagrant и VirtualBox](http://nashbridges.me/ruby-windows-bootstrap)**
+
+[наверх](#lemp-%D1%81%D1%82%D0%B5%D0%BA-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82)
 
 [image-001]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
 [image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-002.png "Регистрация на Rackspace Open Cloud"
