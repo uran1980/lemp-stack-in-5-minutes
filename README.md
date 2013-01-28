@@ -18,8 +18,10 @@ LEMP-стек за 5 минут
 
 ## Начальные приготовления
 
-1. Регистрируемся в облаке rackspace или в любом другом VDS хостинге (выбираем по вкусу) и накатываем нужный образ дистрибутива Linux (в данном случае я использую ```Ubuntu 12.04LTS presice```)
-![alt "Ubuntu 12.04LTS presice"][image-002]
+1. Регистрируемся в облаке **[Rackspace Open Cloud](https://cart.rackspace.com/cloud)** или в любом другом VDS хостинге (выбираем по вкусу). Если вы будете регистрироваться на ракспейсе, то выбирайте при регистрации тип **Cloud Account** как на рисунке, т.к. это аккаунт в отличае от типа **Managed Account** не подразумевает абонентской платы в 100$ в месяц за техническую поддержку, которая нам как вы сами понимаете как собаке пятая нога =)
+![alt "Регистрация Cloud Account"][image-002]
+2. Накатываем нужный образ дистрибутива Linux. В данном случае я использую дистрибутив сервера ```Ubuntu 12.04LTS presice```, т.к. это стабильная ветка как раз для серверов с долгосрочной поддержкой (до 2017 года).
+![alt "Ubuntu 12.04LTS presice"][image-003]
 
 
 ## Настройка сервера
@@ -41,7 +43,10 @@ TODO
 * **[Nginx+php-fpm+perl под Debian Squeeze](http://habrahabr.ru/post/164401/)** - очень полезная статья на хабре по правильной настройке LEMP-стека
 
 [image-001]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
-[image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
+[image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-002.png "Регистрация на Rackspace Open Cloud"
+[image-003]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-003.png "Развертывание образа дистрибутива Ubuntu 12.04LTS presice"
+
+[placeholder]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/placeholder.png "placeholder"
 
 
 
