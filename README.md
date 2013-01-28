@@ -30,7 +30,7 @@ TODO
 TODO
 
 
-### Используемые материалы
+### Полезные ссылки
 
 * **[Rackspace Open Cloud](http://www.rackspace.com/)**
 * **[wiki.opscode.com](http://wiki.opscode.com/display/chef/About+Opscode+Chef)**
