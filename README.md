@@ -98,6 +98,9 @@ TODO
 * **[community.opscode.com](http://community.opscode.com/)**
 * **[GitHub Chef cookbooks](https://github.com/search?q=chef+cookbooks&ref=commandbar)**
 * **[Nginx+php-fpm+perl под Debian Squeeze](http://habrahabr.ru/post/164401/)** - очень полезная статья на хабре по правильной настройке LEMP-стека
+* **[Установка Ruby RVM (Ruby Version Manager) в Ubuntu 12.04](http://habrahabr.ru/sandbox/49699/)**
+* **[Ruby Installer для Windows - самый простой способ установить Ruby под Windows](http://rubyinstaller.org/)**
+* **[Установка Ruby on Rails на Windows с использованием Vagrant и VirtualBox](http://nashbridges.me/ruby-windows-bootstrap)**
 
 [image-001]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
 [image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-002.png "Регистрация на Rackspace Open Cloud"
