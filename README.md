@@ -66,9 +66,9 @@ Chef оперирует **рецептами (cookbooks)** и **ролями (ro
 
 
 ### Архитектура Chef
-TODO
-
 ![alt "Архитектура Chef"][image-004]
+
+Архитектура Chef состоит из **[центрального сервера (Chef-Server)](http://wiki.opscode.com/display/chef/Chef+Server)** и подчиненных ему **[клиентов (Chef-Client)](http://wiki.opscode.com/display/chef/Chef+Client)** - узлов **([nodes](http://wiki.opscode.com/display/chef/Nodes))**. Одной из радновидностей клиентов является **[Knife (ножи шеф-повара)](http://wiki.opscode.com/display/chef/Knife)** - это особые клиенты **([узлы](http://wiki.opscode.com/display/chef/Nodes))** на которых администраторы сети создают и тестируют свои **[рецепты](http://wiki.opscode.com/display/chef/Cookbooks)**, которые, в свою очередь, потом будут применятся на подчиненных Chef-клиентах.
 
 
 ### Регистрация и настройка Chef-Server
