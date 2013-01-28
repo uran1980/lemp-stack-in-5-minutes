@@ -1,6 +1,6 @@
 LEMP-стек за 5 минут
 ====================
-![alt LEMP-stack](https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут")
+![alt LEMP-stack][image-001]
 
 Всем привет! В этой сатье я расскажу как за пять минут приготовить рабочий и готовый к употреблению LEMP-стек. 
 
@@ -18,7 +18,8 @@ LEMP-стек за 5 минут
 
 ## Начальные приготовления
 
-TODO
+1. Регистрируемся в облаке rackspace или в любом другом VDS хостинге (выбираем по вкусу) и накатываем нужный образ дистрибутива Linux (в данном случае я использую ```Ubuntu 12.04LTS presice```)
+![alt "Ubuntu 12.04LTS presice"][image-002]
 
 
 ## Настройка сервера
@@ -38,6 +39,9 @@ TODO
 * **[community.opscode.com](http://community.opscode.com/)**
 * **[GitHub Chef cookbooks](https://github.com/search?q=chef+cookbooks&ref=commandbar)**
 * **[Nginx+php-fpm+perl под Debian Squeeze](http://habrahabr.ru/post/164401/)** - очень полезная статья на хабре по правильной настройке LEMP-стека
+
+[image-001]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
+[image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-001.jpg "LEMP-стек за 5 минут"
 
 
 
