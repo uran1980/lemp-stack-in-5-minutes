@@ -3,4 +3,6 @@ LEMP стек за 5 минут
 
 Всем привет! В этой сатье я расскажу как за пять минут поднять рабочий и готовый к использованию LEMP стек. 
 
-Ну, вопервых, давайте раберемся, что я подразумеваю под понятием **LEMP-стек**. Все вы наверное знаете темин **LAMP-стек (Linux Apache MySQL PHP)**. **LEMP-стек** это тоже самое только вместо web-сервера [Apache](http://ru.wikipedia.org/wiki/Apache) использется [Nginx](http://nginx.org/ru/).
+Ну, вопервых, давайте раберемся, что подразумевется под понятием **LEMP-стек**. Все вы наверное знаете термин **[LAMP-стек (Linux Apache MySQL PHP)](http://ru.wikipedia.org/wiki/LAMP)**. LEMP-стек это тоже самое только вместо web-сервера **[Apache](http://ru.wikipedia.org/wiki/Apache)** использется **[Nginx](http://nginx.org/ru/)**.
+
+
