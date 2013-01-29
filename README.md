@@ -22,7 +22,7 @@ LEMP-стек за 5 минут
 
 ![alt LEMP-stack][image-001]
 
-Сначала давайте раберемся, что такое **LEMP-стек**. Все вы, наверное, знаете термин **[LAMP-стек (Linux Apache MySQL PHP)](http://ru.wikipedia.org/wiki/LAMP)**. L**E**MP-стек это тоже самое только вместо web-сервера **[Apache](http://ru.wikipedia.org/wiki/Apache)** использется **[Nginx](http://nginx.org/ru/)**.
+Сначала давайте раберемся, что такое **LEMP-стек**. Все вы, наверное, знаете термин **[LAMP-стек (Linux Apache MySQL PHP)](http://ru.wikipedia.org/wiki/LAMP)**. LEMP-стек это тоже самое только вместо web-сервера **[Apache](http://ru.wikipedia.org/wiki/Apache)** использется **[Nginx](http://nginx.org/ru/)**.
 
 
 ## Ингридиенты
