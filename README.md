@@ -83,9 +83,9 @@ Chef оперирует **[рецептами (cookbooks)](http://wiki.opscode.c
 
 
 ### Регистрация и настройка Chef-Server
-Чтобы получить доступ к **[web-пенли Chef-сервера](https://manage.opscode.com/)** и бесплатно управлять пятью узлами, заходим по **[этому адресу](http://www.opscode.com/hosted-chef/)**, нажимаем кнопку **Free Trial** и регистрируем бесплатный аккаунт. Если вам по каким-либо причинам будет не достаточно пяти узлов, то придется раскошелиться от 120$ в месяц за большее количество доступных для управления узлов.
+Чтобы получить доступ к **[web-пенели Chef-сервера](https://manage.opscode.com/)** и бесплатно управлять пятью узлами, заходим по этому адресу: [http://www.opscode.com/hosted-chef/](http://www.opscode.com/hosted-chef/), нажимаем кнопку **Free Trial** и регистрируем бесплатный аккаунт. Если вам по каким-либо причинам будет не достаточно пяти узлов, то придется раскошелиться от 120$ в месяц за большее количество доступных для управления узлов.
 
-Теперь когда мы зарегистрировались, нам необходимо для дальнейшей работы полчить два приватных ключа. Я зарегичтрировался под ником **uran1980**, у вас будет свой ник, поэтому дальше предполагается, что вместо моего ника будет подставляться ваш. 
+Теперь когда мы зарегистрировались, нам необходимо для дальнейшей работы получить два приватных ключа. Я зарегистрировался под ником **uran1980**, у вас будет свой ник, поэтому дальше предполагается, что вместо моего ника будет подставляться ваш. 
 
 Итак, нам нужно два приватных ключа:
 * **uran1980.pem** - приватный ключ от публичного профиля с сайта Chef комюнити,
@@ -93,11 +93,11 @@ Chef оперирует **[рецептами (cookbooks)](http://wiki.opscode.c
 
 Чтобы получить ключ от публичного профиля, заходим по адресу ```http://community.opscode.com/users/uran1980/user_key/new``` и нажимаем кнопку **Get a new key**. Скачиваем и сохраняем ключ.
 
-![alt "Get a new key"][image-004]
+![alt "Get a new key"][image-005]
 
-Затем нажимем ссылку **[create an aorganization](https://manage.opscode.com/organizations/new)**. Заполняем все поля и выбираем бесплатный план для управления до пяти серверами (узлами).
+Затем нажимем ссылку **[create an organization](https://manage.opscode.com/organizations/new)**. Заполняем все поля и выбираем бесплатный план для управления до пяти серверами (узлами).
 
-![alt "Создание организации"][image-005]
+![alt "Создание организации"][image-006]
 
 
 TODO
@@ -147,6 +147,8 @@ TODO
 [image-002]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-002.png "Регистрация на Rackspace Open Cloud"
 [image-003]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-003.png "Развертывание образа дистрибутива Ubuntu 12.04LTS presice"
 [image-004]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/chef-server-arch.png "Архитектура Chef"
+[image-005]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/image-005.jpg "Получение приватного ключа от публичного профиля"
+[image-006]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/images-006.png "Создание новой организации"
 
 [placeholder]: https://raw.github.com/uran1980/lemp-stack-in-5-minutes/master/images/placeholder.png "placeholder"
 
